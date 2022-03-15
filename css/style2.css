@@ -35,6 +35,11 @@ header nav ul li a{
     font-family: 'Noto Sans', sans-serif;
 }
 
+header nav ul li a:hover{
+    background-color: white;
+    color: darkblue;
+}
+
 body{
     background-image: url("../img/fondoVideojuego.jpg");
     background-size: contain;

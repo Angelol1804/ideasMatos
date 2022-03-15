@@ -26,6 +26,10 @@ header nav ul li{
     margin: 20px;
 }
 
+header nav ul li:hover{
+    transform: scale(1.5);
+}
+
 header nav ul li a{
     text-decoration: none;
     background-color: black;
