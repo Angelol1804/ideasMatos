@@ -17,6 +17,7 @@ header nav{
 
 header nav ul{
     list-style: none;
+    margin-right: 5rem;
 }
 
 header nav ul li{
@@ -55,6 +56,7 @@ header nav ul li a:hover{
     font-family: 'Noto Sans', sans-serif;
     margin-top: 5px;
     margin-left: 15px;
+    margin-bottom: 0%;
     padding: 10px;
     width: 75%;
     color: white;
@@ -86,6 +88,7 @@ header nav ul li a:hover{
     font-family: 'Noto Sans', sans-serif;
     margin-top: 5px;
     margin-left: 15px;
+    margin-bottom: 0%;
     padding: 10px;
     width: 75%;
     color: white;
@@ -123,6 +126,83 @@ footer a{
     cursor: pointer;
     display: inline-block;
     font-size: 15px;
+}
+
+.img1 {
+    background-color: blanchedalmond;
+    border: solid black;
+}
+
+.img2{
+    background-color: blanchedalmond;
+    border: solid black;
+}
+
+.img3{
+    background-color: blanchedalmond;
+    border: solid black;
+}
+
+.img4{
+    background-color: blanchedalmond;
+    border: solid black;
+}
+
+.img1 h3{
+    margin: 0%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.img2 h3{
+    margin: 0%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.img3 h3{
+    margin: 0%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.img4 h3{
+    margin: 0%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.img1 h4,p{
+    padding: 5px;
+    font-size: 15px;
+}
+
+.img2 h4,p{
+    padding: 5px;
+    font-size: 15px;
+}
+
+.img3 h4,p{
+    padding: 5px;
+    font-size: 15px;
+}
+
+.img4 h4,p{
+    padding: 5px;
+    font-size: 15px;
+}
+
+.cuadro{
+    --bs-gutter-x:0px;
+    margin-top: 50px;
 }
 
 @media (max-width:578px) {
@@ -247,6 +327,7 @@ footer a{
         height: 25px;
     }
 }
+    
 
 @media (min-width:579px) and (max-width:900px) {
     header{
