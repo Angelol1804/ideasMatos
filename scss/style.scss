@@ -1,0 +1,204 @@
+header{
+    padding: 10px;
+    background-color: rgb(23, 62, 133);
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        ul{
+            list-style: none;
+            margin-right: 5rem;
+            li{
+                padding: 5px;
+                display: inline-block;
+                margin: 20px;
+                transition: all 2s;
+                &:hover{
+                    transform: scale(1.5);}
+                    a{
+                        text-decoration: none;
+                        background-color: black;
+                        color: white;
+                        font-size: 25px;
+                        padding: 5px 20px 5px 20px;
+                        font-family: 'Noto Sans',sans-serif;
+                        &:hover{
+                            background-color: white;
+                            color: darkblue;
+                        }
+                    }                
+                
+
+                
+                
+
+            }
+        }
+    }
+}
+
+.container__noticias-ultimas{
+    display: flex;
+    flex-direction: column;
+    h1{
+        text-align: left;
+        font-family: 'Noto Sans',sans-serif;
+        margin-top: 5px;
+        margin-left: 15px;
+        margin-bottom: 0px;
+        padding: 10px;
+        width: 75%;
+        color: white;
+        font-size: 40px;
+        background-color: black;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+}
+
+.container__detalles-noticias{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: blanchedalmond;
+    padding: 10px;
+    width: 75%;
+    border-bottom: 2px solid black;
+    div{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+}
+
+.container__noticias-destacadas{
+    h2{
+        text-align:left;
+        font-family: 'Noto Sans', sans-serif;
+        margin-top: 5px;
+        margin-left: 15px;
+        margin-bottom: 0%;
+        padding: 10px;
+        width: 75%;
+        color: white;
+        font-size: 40px;
+        background-color: black;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+}
+
+body{
+    background-image: url("../img/fondoVideojuego.jpg");
+    background-size: contain;
+}
+
+footer{
+    margin-top: 20px;
+    background-color:rgb(23, 62,133);
+    width: 100%;
+    text-align: center;
+    h3{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 15px;
+        background-color: black;
+        color: white; 
+    }
+    a{
+        text-decoration: none;
+        color:beige ;
+        margin: 10px 22px 0 0;
+        padding: 5px 20px 5px 20px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 15px;  
+    }
+}
+
+.img1{
+        background-color: blanchedalmond;
+        border: solid black;
+    h3{
+        margin: 0%;
+        padding: 5px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+    }
+    h4{
+        padding: 5px;
+        font-size: 15px;
+    }
+    p{
+        padding: 5px;
+        font-size: 15px;
+    }
+}
+
+.img2{
+    background-color: blanchedalmond;
+    border: solid black;
+    h3{
+        margin: 0%;
+        padding: 5px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+    }
+    h4{
+    padding: 5px;
+    font-size: 15px;
+    }
+    p{
+    padding: 5px;
+    font-size: 15px;
+    }
+}
+
+.img3{
+    background-color: blanchedalmond;
+    border: solid black;
+    h3{
+    margin: 0%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    }
+    h4{
+    padding: 5px;
+    font-size: 15px;
+    }
+    p{
+    padding: 5px;
+    font-size: 15px;
+    }
+}
+
+.img4{
+    background-color: blanchedalmond;
+    border: solid black;
+    h3{
+    margin: 0%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    }
+    h4{
+    padding: 5px;
+    font-size: 15px;
+    }
+    p{
+    padding: 5px;
+    font-size: 15px;
+    }
+}
+
+.cuadro{
+    --bs-gutter-x:0px;
+    margin-top: 50px;
+}
