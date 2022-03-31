@@ -1,3 +1,6 @@
+@import './extends';
+@import './mixin';
+
 header{
     padding: 10px;
     background-color: rgb(23, 62, 133);
@@ -42,18 +45,7 @@ header{
     display: flex;
     flex-direction: column;
     h1{
-        text-align: left;
-        font-family: 'Noto Sans',sans-serif;
-        margin-top: 5px;
-        margin-left: 15px;
-        margin-bottom: 0px;
-        padding: 10px;
-        width: 75%;
-        color: white;
-        font-size: 40px;
-        background-color: black;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
+        @extend %titulos;
     }
 }
 
@@ -74,19 +66,10 @@ header{
 }
 
 .container__noticias-destacadas{
+    display: flex;
+    flex-direction: column;
     h2{
-        text-align:left;
-        font-family: 'Noto Sans', sans-serif;
-        margin-top: 5px;
-        margin-left: 15px;
-        margin-bottom: 0%;
-        padding: 10px;
-        width: 75%;
-        color: white;
-        font-size: 40px;
-        background-color: black;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
+        @extend %titulos;
     }
 }
 
@@ -124,9 +107,7 @@ footer{
     h3{
         margin: 0%;
         padding: 5px;
-        background-color: black;
-        color: white;
-        font-size: 20px;
+        @include diseñoCuadros(black,white,20px)
     }
     h4{
         padding: 5px;
@@ -144,9 +125,7 @@ footer{
     h3{
         margin: 0%;
         padding: 5px;
-        background-color: black;
-        color: white;
-        font-size: 20px;
+        @include diseñoCuadros(blue,purple,15px)        
     }
     h4{
     padding: 5px;
@@ -164,9 +143,7 @@ footer{
     h3{
     margin: 0%;
     padding: 5px;
-    background-color: black;
-    color: white;
-    font-size: 20px;
+    @include diseñoCuadros(red,black,18px)
     }
     h4{
     padding: 5px;
@@ -184,9 +161,7 @@ footer{
     h3{
     margin: 0%;
     padding: 5px;
-    background-color: black;
-    color: white;
-    font-size: 20px;
+    @include diseñoCuadros(green,white,20px)
     }
     h4{
     padding: 5px;
