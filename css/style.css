@@ -128,9 +128,9 @@ footer a {
 .img2 h3 {
   margin: 0%;
   padding: 5px;
-  background-color: blue;
-  color: purple;
-  font-size: 15px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
 }
 .img2 h4 {
   padding: 5px;
@@ -148,9 +148,9 @@ footer a {
 .img3 h3 {
   margin: 0%;
   padding: 5px;
-  background-color: red;
-  color: black;
-  font-size: 18px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
 }
 .img3 h4 {
   padding: 5px;
@@ -168,7 +168,7 @@ footer a {
 .img4 h3 {
   margin: 0%;
   padding: 5px;
-  background-color: green;
+  background-color: black;
   color: white;
   font-size: 20px;
 }
